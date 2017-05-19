@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		165BBC041ECD3722003BD1A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC031ECD3722003BD1A2 /* main.m */; };
+		165BBC071ECD3722003BD1A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC061ECD3722003BD1A2 /* AppDelegate.m */; };
+		165BBC0A1ECD3722003BD1A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC091ECD3722003BD1A2 /* ViewController.m */; };
+		165BBC101ECD3722003BD1A2 /* LSLBaseMainTableViewController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC0E1ECD3722003BD1A2 /* LSLBaseMainTableViewController.xcdatamodeld */; };
+		165BBC121ECD3722003BD1A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165BBC111ECD3722003BD1A2 /* Assets.xcassets */; };
+		165BBC151ECD3722003BD1A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165BBC131ECD3722003BD1A2 /* LaunchScreen.storyboard */; };
+		165BBC201ECD3722003BD1A2 /* LSLBaseMainTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC1F1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerTests.m */; };
+		165BBC2B1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC2A1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerUITests.m */; };
+		165BBC411ECD3865003BD1A2 /* LSLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC401ECD3865003BD1A2 /* LSLBaseTableViewController.m */; };
+		165BBC441ECD3972003BD1A2 /* NSArray+LSSafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC431ECD3972003BD1A2 /* NSArray+LSSafeAccess.m */; };
+		165BBC471ECD3A8C003BD1A2 /* LSLBaseCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC461ECD3A8C003BD1A2 /* LSLBaseCellModel.m */; };
+		165BBC4A1ECD3EA1003BD1A2 /* LSLBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC491ECD3EA1003BD1A2 /* LSLBaseTableViewCell.m */; };
+		165BBC4D1ECD3F86003BD1A2 /* LSLTableViewControllerConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC4C1ECD3F86003BD1A2 /* LSLTableViewControllerConst.m */; };
+		165BBC521ECD4250003BD1A2 /* UIColor+LSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC4F1ECD4250003BD1A2 /* UIColor+LSColor.m */; };
+		165BBC531ECD4250003BD1A2 /* UIView+KCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC511ECD4250003BD1A2 /* UIView+KCView.m */; };
+		165BBC561ECD4EB0003BD1A2 /* ic_hs_tableView_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165BBC541ECD4EB0003BD1A2 /* ic_hs_tableView_arrow@2x.png */; };
+		165BBC571ECD4EB0003BD1A2 /* ic_hs_tableView_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165BBC551ECD4EB0003BD1A2 /* ic_hs_tableView_arrow@3x.png */; };
+		165BBC5A1ECD74DA003BD1A2 /* LSLImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC591ECD74DA003BD1A2 /* LSLImageTableViewCell.m */; };
+		165BBC601ECD89D7003BD1A2 /* LSLImageCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC5F1ECD89D7003BD1A2 /* LSLImageCellModel.m */; };
+		165BBC691ECDA385003BD1A2 /* LSLSwitchCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC681ECDA385003BD1A2 /* LSLSwitchCellModel.m */; };
+		165BBC6C1ECDA399003BD1A2 /* LSLSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC6B1ECDA399003BD1A2 /* LSLSwitchTableViewCell.m */; };
+		165BBC6F1ECE8940003BD1A2 /* LSLTextCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC6E1ECE8940003BD1A2 /* LSLTextCellModel.m */; };
+		165BBC721ECE8954003BD1A2 /* LSLTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC711ECE8954003BD1A2 /* LSLTextTableViewCell.m */; };
+		165BBC751ECE97D0003BD1A2 /* NSString+LSHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC741ECE97D0003BD1A2 /* NSString+LSHeight.m */; };
+		165BBC781ECE9B4D003BD1A2 /* ProfileLockOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165BBC761ECE9B4D003BD1A2 /* ProfileLockOn@2x.png */; };
+		165BBC791ECE9B4D003BD1A2 /* ProfileLockOn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165BBC771ECE9B4D003BD1A2 /* ProfileLockOn@3x.png */; };
+		B5A68B42E21D9497B79DB2DC /* libPods-LSLBaseMainTableViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC6573480336CA34430A036 /* libPods-LSLBaseMainTableViewController.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		165BBC1C1ECD3722003BD1A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 165BBBF71ECD3722003BD1A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 165BBBFE1ECD3722003BD1A2;
+			remoteInfo = LSLBaseMainTableViewController;
+		};
+		165BBC271ECD3722003BD1A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 165BBBF71ECD3722003BD1A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 165BBBFE1ECD3722003BD1A2;
+			remoteInfo = LSLBaseMainTableViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		165BBBFF1ECD3722003BD1A2 /* LSLBaseMainTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSLBaseMainTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		165BBC031ECD3722003BD1A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		165BBC051ECD3722003BD1A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		165BBC061ECD3722003BD1A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		165BBC081ECD3722003BD1A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		165BBC091ECD3722003BD1A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		165BBC0F1ECD3722003BD1A2 /* LSLBaseMainTableViewController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LSLBaseMainTableViewController.xcdatamodel; sourceTree = "<group>"; };
+		165BBC111ECD3722003BD1A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		165BBC141ECD3722003BD1A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		165BBC161ECD3722003BD1A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165BBC1B1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSLBaseMainTableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		165BBC1F1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSLBaseMainTableViewControllerTests.m; sourceTree = "<group>"; };
+		165BBC211ECD3722003BD1A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165BBC261ECD3722003BD1A2 /* LSLBaseMainTableViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSLBaseMainTableViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		165BBC2A1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSLBaseMainTableViewControllerUITests.m; sourceTree = "<group>"; };
+		165BBC2C1ECD3722003BD1A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165BBC3F1ECD3865003BD1A2 /* LSLBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLBaseTableViewController.h; sourceTree = "<group>"; };
+		165BBC401ECD3865003BD1A2 /* LSLBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLBaseTableViewController.m; sourceTree = "<group>"; };
+		165BBC421ECD3972003BD1A2 /* NSArray+LSSafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LSSafeAccess.h"; sourceTree = "<group>"; };
+		165BBC431ECD3972003BD1A2 /* NSArray+LSSafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LSSafeAccess.m"; sourceTree = "<group>"; };
+		165BBC451ECD3A8C003BD1A2 /* LSLBaseCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLBaseCellModel.h; sourceTree = "<group>"; };
+		165BBC461ECD3A8C003BD1A2 /* LSLBaseCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLBaseCellModel.m; sourceTree = "<group>"; };
+		165BBC481ECD3EA1003BD1A2 /* LSLBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLBaseTableViewCell.h; sourceTree = "<group>"; };
+		165BBC491ECD3EA1003BD1A2 /* LSLBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLBaseTableViewCell.m; sourceTree = "<group>"; };
+		165BBC4B1ECD3F86003BD1A2 /* LSLTableViewControllerConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLTableViewControllerConst.h; sourceTree = "<group>"; };
+		165BBC4C1ECD3F86003BD1A2 /* LSLTableViewControllerConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLTableViewControllerConst.m; sourceTree = "<group>"; };
+		165BBC4E1ECD4250003BD1A2 /* UIColor+LSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LSColor.h"; sourceTree = "<group>"; };
+		165BBC4F1ECD4250003BD1A2 /* UIColor+LSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LSColor.m"; sourceTree = "<group>"; };
+		165BBC501ECD4250003BD1A2 /* UIView+KCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KCView.h"; sourceTree = "<group>"; };
+		165BBC511ECD4250003BD1A2 /* UIView+KCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KCView.m"; sourceTree = "<group>"; };
+		165BBC541ECD4EB0003BD1A2 /* ic_hs_tableView_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_hs_tableView_arrow@2x.png"; sourceTree = "<group>"; };
+		165BBC551ECD4EB0003BD1A2 /* ic_hs_tableView_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_hs_tableView_arrow@3x.png"; sourceTree = "<group>"; };
+		165BBC581ECD74DA003BD1A2 /* LSLImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLImageTableViewCell.h; sourceTree = "<group>"; };
+		165BBC591ECD74DA003BD1A2 /* LSLImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLImageTableViewCell.m; sourceTree = "<group>"; };
+		165BBC5E1ECD89D7003BD1A2 /* LSLImageCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLImageCellModel.h; sourceTree = "<group>"; };
+		165BBC5F1ECD89D7003BD1A2 /* LSLImageCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLImageCellModel.m; sourceTree = "<group>"; };
+		165BBC611ECD92AD003BD1A2 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../Library/Developer/Xcode/DerivedData/LSLBaseMainTableViewController-hjhgizcercfqxdbhetwemcuamjon/Build/Products/Debug-iphonesimulator/SDWebImage/libSDWebImage.a"; sourceTree = "<group>"; };
+		165BBC671ECDA385003BD1A2 /* LSLSwitchCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLSwitchCellModel.h; sourceTree = "<group>"; };
+		165BBC681ECDA385003BD1A2 /* LSLSwitchCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLSwitchCellModel.m; sourceTree = "<group>"; };
+		165BBC6A1ECDA399003BD1A2 /* LSLSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLSwitchTableViewCell.h; sourceTree = "<group>"; };
+		165BBC6B1ECDA399003BD1A2 /* LSLSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLSwitchTableViewCell.m; sourceTree = "<group>"; };
+		165BBC6D1ECE8940003BD1A2 /* LSLTextCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLTextCellModel.h; sourceTree = "<group>"; };
+		165BBC6E1ECE8940003BD1A2 /* LSLTextCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLTextCellModel.m; sourceTree = "<group>"; };
+		165BBC701ECE8954003BD1A2 /* LSLTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLTextTableViewCell.h; sourceTree = "<group>"; };
+		165BBC711ECE8954003BD1A2 /* LSLTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLTextTableViewCell.m; sourceTree = "<group>"; };
+		165BBC731ECE97D0003BD1A2 /* NSString+LSHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LSHeight.h"; sourceTree = "<group>"; };
+		165BBC741ECE97D0003BD1A2 /* NSString+LSHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LSHeight.m"; sourceTree = "<group>"; };
+		165BBC761ECE9B4D003BD1A2 /* ProfileLockOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ProfileLockOn@2x.png"; sourceTree = "<group>"; };
+		165BBC771ECE9B4D003BD1A2 /* ProfileLockOn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ProfileLockOn@3x.png"; sourceTree = "<group>"; };
+		4FA6DBDFCDC006FF01675D84 /* Pods-LSLBaseMainTableViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSLBaseMainTableViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSLBaseMainTableViewController/Pods-LSLBaseMainTableViewController.release.xcconfig"; sourceTree = "<group>"; };
+		ACC6573480336CA34430A036 /* libPods-LSLBaseMainTableViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSLBaseMainTableViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD8C25ADA91EFDF395AC416 /* Pods-LSLBaseMainTableViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSLBaseMainTableViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSLBaseMainTableViewController/Pods-LSLBaseMainTableViewController.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		165BBBFC1ECD3722003BD1A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A68B42E21D9497B79DB2DC /* libPods-LSLBaseMainTableViewController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165BBC181ECD3722003BD1A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165BBC231ECD3722003BD1A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060C51BBA4A2FF7D23B7A574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				165BBC611ECD92AD003BD1A2 /* libSDWebImage.a */,
+				ACC6573480336CA34430A036 /* libPods-LSLBaseMainTableViewController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		165BBBF61ECD3722003BD1A2 = {
+			isa = PBXGroup;
+			children = (
+				165BBC011ECD3722003BD1A2 /* LSLBaseMainTableViewController */,
+				165BBC1E1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerTests */,
+				165BBC291ECD3722003BD1A2 /* LSLBaseMainTableViewControllerUITests */,
+				165BBC001ECD3722003BD1A2 /* Products */,
+				E1DA50EBB13A5CF03C6808CE /* Pods */,
+				060C51BBA4A2FF7D23B7A574 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		165BBC001ECD3722003BD1A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				165BBBFF1ECD3722003BD1A2 /* LSLBaseMainTableViewController.app */,
+				165BBC1B1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerTests.xctest */,
+				165BBC261ECD3722003BD1A2 /* LSLBaseMainTableViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		165BBC011ECD3722003BD1A2 /* LSLBaseMainTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				165BBC381ECD3801003BD1A2 /* LSLBaseMainTableViewContoller */,
+				165BBC051ECD3722003BD1A2 /* AppDelegate.h */,
+				165BBC061ECD3722003BD1A2 /* AppDelegate.m */,
+				165BBC081ECD3722003BD1A2 /* ViewController.h */,
+				165BBC091ECD3722003BD1A2 /* ViewController.m */,
+				165BBC111ECD3722003BD1A2 /* Assets.xcassets */,
+				165BBC131ECD3722003BD1A2 /* LaunchScreen.storyboard */,
+				165BBC161ECD3722003BD1A2 /* Info.plist */,
+				165BBC0E1ECD3722003BD1A2 /* LSLBaseMainTableViewController.xcdatamodeld */,
+				165BBC021ECD3722003BD1A2 /* Supporting Files */,
+			);
+			path = LSLBaseMainTableViewController;
+			sourceTree = "<group>";
+		};
+		165BBC021ECD3722003BD1A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				165BBC031ECD3722003BD1A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		165BBC1E1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				165BBC1F1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerTests.m */,
+				165BBC211ECD3722003BD1A2 /* Info.plist */,
+			);
+			path = LSLBaseMainTableViewControllerTests;
+			sourceTree = "<group>";
+		};
+		165BBC291ECD3722003BD1A2 /* LSLBaseMainTableViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				165BBC2A1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerUITests.m */,
+				165BBC2C1ECD3722003BD1A2 /* Info.plist */,
+			);
+			path = LSLBaseMainTableViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		165BBC381ECD3801003BD1A2 /* LSLBaseMainTableViewContoller */ = {
+			isa = PBXGroup;
+			children = (
+				165BBC391ECD3801003BD1A2 /* LSLBaseContoller */,
+				165BBC3A1ECD3801003BD1A2 /* LSLBaseModel */,
+				165BBC3B1ECD3801003BD1A2 /* LSLBaseView */,
+				165BBC3C1ECD3801003BD1A2 /* LSLCategory */,
+				165BBC3D1ECD3801003BD1A2 /* LSLConst */,
+				165BBC3E1ECD3801003BD1A2 /* LSLResource */,
+			);
+			path = LSLBaseMainTableViewContoller;
+			sourceTree = "<group>";
+		};
+		165BBC391ECD3801003BD1A2 /* LSLBaseContoller */ = {
+			isa = PBXGroup;
+			children = (
+				165BBC3F1ECD3865003BD1A2 /* LSLBaseTableViewController.h */,
+				165BBC401ECD3865003BD1A2 /* LSLBaseTableViewController.m */,
+			);
+			path = LSLBaseContoller;
+			sourceTree = "<group>";
+		};
+		165BBC3A1ECD3801003BD1A2 /* LSLBaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				165BBC451ECD3A8C003BD1A2 /* LSLBaseCellModel.h */,
+				165BBC461ECD3A8C003BD1A2 /* LSLBaseCellModel.m */,
+				165BBC5E1ECD89D7003BD1A2 /* LSLImageCellModel.h */,
+				165BBC5F1ECD89D7003BD1A2 /* LSLImageCellModel.m */,
+				165BBC671ECDA385003BD1A2 /* LSLSwitchCellModel.h */,
+				165BBC681ECDA385003BD1A2 /* LSLSwitchCellModel.m */,
+				165BBC6D1ECE8940003BD1A2 /* LSLTextCellModel.h */,
+				165BBC6E1ECE8940003BD1A2 /* LSLTextCellModel.m */,
+			);
+			path = LSLBaseModel;
+			sourceTree = "<group>";
+		};
+		165BBC3B1ECD3801003BD1A2 /* LSLBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				165BBC481ECD3EA1003BD1A2 /* LSLBaseTableViewCell.h */,
+				165BBC491ECD3EA1003BD1A2 /* LSLBaseTableViewCell.m */,
+				165BBC581ECD74DA003BD1A2 /* LSLImageTableViewCell.h */,
+				165BBC591ECD74DA003BD1A2 /* LSLImageTableViewCell.m */,
+				165BBC6A1ECDA399003BD1A2 /* LSLSwitchTableViewCell.h */,
+				165BBC6B1ECDA399003BD1A2 /* LSLSwitchTableViewCell.m */,
+				165BBC701ECE8954003BD1A2 /* LSLTextTableViewCell.h */,
+				165BBC711ECE8954003BD1A2 /* LSLTextTableViewCell.m */,
+			);
+			path = LSLBaseView;
+			sourceTree = "<group>";
+		};
+		165BBC3C1ECD3801003BD1A2 /* LSLCategory */ = {
+			isa = PBXGroup;
+			children = (
+				165BBC4E1ECD4250003BD1A2 /* UIColor+LSColor.h */,
+				165BBC4F1ECD4250003BD1A2 /* UIColor+LSColor.m */,
+				165BBC501ECD4250003BD1A2 /* UIView+KCView.h */,
+				165BBC511ECD4250003BD1A2 /* UIView+KCView.m */,
+				165BBC421ECD3972003BD1A2 /* NSArray+LSSafeAccess.h */,
+				165BBC431ECD3972003BD1A2 /* NSArray+LSSafeAccess.m */,
+				165BBC731ECE97D0003BD1A2 /* NSString+LSHeight.h */,
+				165BBC741ECE97D0003BD1A2 /* NSString+LSHeight.m */,
+			);
+			path = LSLCategory;
+			sourceTree = "<group>";
+		};
+		165BBC3D1ECD3801003BD1A2 /* LSLConst */ = {
+			isa = PBXGroup;
+			children = (
+				165BBC4B1ECD3F86003BD1A2 /* LSLTableViewControllerConst.h */,
+				165BBC4C1ECD3F86003BD1A2 /* LSLTableViewControllerConst.m */,
+			);
+			path = LSLConst;
+			sourceTree = "<group>";
+		};
+		165BBC3E1ECD3801003BD1A2 /* LSLResource */ = {
+			isa = PBXGroup;
+			children = (
+				165BBC761ECE9B4D003BD1A2 /* ProfileLockOn@2x.png */,
+				165BBC771ECE9B4D003BD1A2 /* ProfileLockOn@3x.png */,
+				165BBC541ECD4EB0003BD1A2 /* ic_hs_tableView_arrow@2x.png */,
+				165BBC551ECD4EB0003BD1A2 /* ic_hs_tableView_arrow@3x.png */,
+			);
+			path = LSLResource;
+			sourceTree = "<group>";
+		};
+		E1DA50EBB13A5CF03C6808CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACD8C25ADA91EFDF395AC416 /* Pods-LSLBaseMainTableViewController.debug.xcconfig */,
+				4FA6DBDFCDC006FF01675D84 /* Pods-LSLBaseMainTableViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		165BBBFE1ECD3722003BD1A2 /* LSLBaseMainTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165BBC2F1ECD3722003BD1A2 /* Build configuration list for PBXNativeTarget "LSLBaseMainTableViewController" */;
+			buildPhases = (
+				09A413A7B0368CF091A1A103 /* [CP] Check Pods Manifest.lock */,
+				165BBBFB1ECD3722003BD1A2 /* Sources */,
+				165BBBFC1ECD3722003BD1A2 /* Frameworks */,
+				165BBBFD1ECD3722003BD1A2 /* Resources */,
+				BF1BE9F71A9ACE53B5641B84 /* [CP] Embed Pods Frameworks */,
+				F9B4B21C0C80EDC93329EE30 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSLBaseMainTableViewController;
+			productName = LSLBaseMainTableViewController;
+			productReference = 165BBBFF1ECD3722003BD1A2 /* LSLBaseMainTableViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		165BBC1A1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165BBC321ECD3722003BD1A2 /* Build configuration list for PBXNativeTarget "LSLBaseMainTableViewControllerTests" */;
+			buildPhases = (
+				165BBC171ECD3722003BD1A2 /* Sources */,
+				165BBC181ECD3722003BD1A2 /* Frameworks */,
+				165BBC191ECD3722003BD1A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				165BBC1D1ECD3722003BD1A2 /* PBXTargetDependency */,
+			);
+			name = LSLBaseMainTableViewControllerTests;
+			productName = LSLBaseMainTableViewControllerTests;
+			productReference = 165BBC1B1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		165BBC251ECD3722003BD1A2 /* LSLBaseMainTableViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165BBC351ECD3722003BD1A2 /* Build configuration list for PBXNativeTarget "LSLBaseMainTableViewControllerUITests" */;
+			buildPhases = (
+				165BBC221ECD3722003BD1A2 /* Sources */,
+				165BBC231ECD3722003BD1A2 /* Frameworks */,
+				165BBC241ECD3722003BD1A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				165BBC281ECD3722003BD1A2 /* PBXTargetDependency */,
+			);
+			name = LSLBaseMainTableViewControllerUITests;
+			productName = LSLBaseMainTableViewControllerUITests;
+			productReference = 165BBC261ECD3722003BD1A2 /* LSLBaseMainTableViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		165BBBF71ECD3722003BD1A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = lisonglin;
+				TargetAttributes = {
+					165BBBFE1ECD3722003BD1A2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					165BBC1A1ECD3722003BD1A2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 165BBBFE1ECD3722003BD1A2;
+					};
+					165BBC251ECD3722003BD1A2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 165BBBFE1ECD3722003BD1A2;
+					};
+				};
+			};
+			buildConfigurationList = 165BBBFA1ECD3722003BD1A2 /* Build configuration list for PBXProject "LSLBaseMainTableViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 165BBBF61ECD3722003BD1A2;
+			productRefGroup = 165BBC001ECD3722003BD1A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				165BBBFE1ECD3722003BD1A2 /* LSLBaseMainTableViewController */,
+				165BBC1A1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerTests */,
+				165BBC251ECD3722003BD1A2 /* LSLBaseMainTableViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		165BBBFD1ECD3722003BD1A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165BBC151ECD3722003BD1A2 /* LaunchScreen.storyboard in Resources */,
+				165BBC781ECE9B4D003BD1A2 /* ProfileLockOn@2x.png in Resources */,
+				165BBC121ECD3722003BD1A2 /* Assets.xcassets in Resources */,
+				165BBC561ECD4EB0003BD1A2 /* ic_hs_tableView_arrow@2x.png in Resources */,
+				165BBC571ECD4EB0003BD1A2 /* ic_hs_tableView_arrow@3x.png in Resources */,
+				165BBC791ECE9B4D003BD1A2 /* ProfileLockOn@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165BBC191ECD3722003BD1A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165BBC241ECD3722003BD1A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09A413A7B0368CF091A1A103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF1BE9F71A9ACE53B5641B84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSLBaseMainTableViewController/Pods-LSLBaseMainTableViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9B4B21C0C80EDC93329EE30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSLBaseMainTableViewController/Pods-LSLBaseMainTableViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		165BBBFB1ECD3722003BD1A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165BBC4D1ECD3F86003BD1A2 /* LSLTableViewControllerConst.m in Sources */,
+				165BBC441ECD3972003BD1A2 /* NSArray+LSSafeAccess.m in Sources */,
+				165BBC471ECD3A8C003BD1A2 /* LSLBaseCellModel.m in Sources */,
+				165BBC721ECE8954003BD1A2 /* LSLTextTableViewCell.m in Sources */,
+				165BBC4A1ECD3EA1003BD1A2 /* LSLBaseTableViewCell.m in Sources */,
+				165BBC0A1ECD3722003BD1A2 /* ViewController.m in Sources */,
+				165BBC691ECDA385003BD1A2 /* LSLSwitchCellModel.m in Sources */,
+				165BBC531ECD4250003BD1A2 /* UIView+KCView.m in Sources */,
+				165BBC101ECD3722003BD1A2 /* LSLBaseMainTableViewController.xcdatamodeld in Sources */,
+				165BBC601ECD89D7003BD1A2 /* LSLImageCellModel.m in Sources */,
+				165BBC521ECD4250003BD1A2 /* UIColor+LSColor.m in Sources */,
+				165BBC751ECE97D0003BD1A2 /* NSString+LSHeight.m in Sources */,
+				165BBC071ECD3722003BD1A2 /* AppDelegate.m in Sources */,
+				165BBC411ECD3865003BD1A2 /* LSLBaseTableViewController.m in Sources */,
+				165BBC041ECD3722003BD1A2 /* main.m in Sources */,
+				165BBC5A1ECD74DA003BD1A2 /* LSLImageTableViewCell.m in Sources */,
+				165BBC6F1ECE8940003BD1A2 /* LSLTextCellModel.m in Sources */,
+				165BBC6C1ECDA399003BD1A2 /* LSLSwitchTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165BBC171ECD3722003BD1A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165BBC201ECD3722003BD1A2 /* LSLBaseMainTableViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165BBC221ECD3722003BD1A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165BBC2B1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		165BBC1D1ECD3722003BD1A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 165BBBFE1ECD3722003BD1A2 /* LSLBaseMainTableViewController */;
+			targetProxy = 165BBC1C1ECD3722003BD1A2 /* PBXContainerItemProxy */;
+		};
+		165BBC281ECD3722003BD1A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 165BBBFE1ECD3722003BD1A2 /* LSLBaseMainTableViewController */;
+			targetProxy = 165BBC271ECD3722003BD1A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		165BBC131ECD3722003BD1A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				165BBC141ECD3722003BD1A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		165BBC2D1ECD3722003BD1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		165BBC2E1ECD3722003BD1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		165BBC301ECD3722003BD1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD8C25ADA91EFDF395AC416 /* Pods-LSLBaseMainTableViewController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LSLBaseMainTableViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "K.C-Home.LSLBaseMainTableViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		165BBC311ECD3722003BD1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA6DBDFCDC006FF01675D84 /* Pods-LSLBaseMainTableViewController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LSLBaseMainTableViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "K.C-Home.LSLBaseMainTableViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		165BBC331ECD3722003BD1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSLBaseMainTableViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "K.C-Home.LSLBaseMainTableViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSLBaseMainTableViewController.app/LSLBaseMainTableViewController";
+			};
+			name = Debug;
+		};
+		165BBC341ECD3722003BD1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSLBaseMainTableViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "K.C-Home.LSLBaseMainTableViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSLBaseMainTableViewController.app/LSLBaseMainTableViewController";
+			};
+			name = Release;
+		};
+		165BBC361ECD3722003BD1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LSLBaseMainTableViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "K.C-Home.LSLBaseMainTableViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSLBaseMainTableViewController;
+			};
+			name = Debug;
+		};
+		165BBC371ECD3722003BD1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LSLBaseMainTableViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "K.C-Home.LSLBaseMainTableViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSLBaseMainTableViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		165BBBFA1ECD3722003BD1A2 /* Build configuration list for PBXProject "LSLBaseMainTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165BBC2D1ECD3722003BD1A2 /* Debug */,
+				165BBC2E1ECD3722003BD1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		165BBC2F1ECD3722003BD1A2 /* Build configuration list for PBXNativeTarget "LSLBaseMainTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165BBC301ECD3722003BD1A2 /* Debug */,
+				165BBC311ECD3722003BD1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		165BBC321ECD3722003BD1A2 /* Build configuration list for PBXNativeTarget "LSLBaseMainTableViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165BBC331ECD3722003BD1A2 /* Debug */,
+				165BBC341ECD3722003BD1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		165BBC351ECD3722003BD1A2 /* Build configuration list for PBXNativeTarget "LSLBaseMainTableViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165BBC361ECD3722003BD1A2 /* Debug */,
+				165BBC371ECD3722003BD1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		165BBC0E1ECD3722003BD1A2 /* LSLBaseMainTableViewController.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				165BBC0F1ECD3722003BD1A2 /* LSLBaseMainTableViewController.xcdatamodel */,
+			);
+			currentVersion = 165BBC0F1ECD3722003BD1A2 /* LSLBaseMainTableViewController.xcdatamodel */;
+			path = LSLBaseMainTableViewController.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 165BBBF71ECD3722003BD1A2 /* Project object */;
+}

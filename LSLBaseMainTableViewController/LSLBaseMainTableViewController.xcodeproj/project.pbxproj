@@ -16,12 +16,9 @@
 		165BBC201ECD3722003BD1A2 /* LSLBaseMainTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC1F1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerTests.m */; };
 		165BBC2B1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC2A1ECD3722003BD1A2 /* LSLBaseMainTableViewControllerUITests.m */; };
 		165BBC411ECD3865003BD1A2 /* LSLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC401ECD3865003BD1A2 /* LSLBaseTableViewController.m */; };
-		165BBC441ECD3972003BD1A2 /* NSArray+LSSafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC431ECD3972003BD1A2 /* NSArray+LSSafeAccess.m */; };
 		165BBC471ECD3A8C003BD1A2 /* LSLBaseCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC461ECD3A8C003BD1A2 /* LSLBaseCellModel.m */; };
 		165BBC4A1ECD3EA1003BD1A2 /* LSLBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC491ECD3EA1003BD1A2 /* LSLBaseTableViewCell.m */; };
 		165BBC4D1ECD3F86003BD1A2 /* LSLTableViewControllerConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC4C1ECD3F86003BD1A2 /* LSLTableViewControllerConst.m */; };
-		165BBC521ECD4250003BD1A2 /* UIColor+LSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC4F1ECD4250003BD1A2 /* UIColor+LSColor.m */; };
-		165BBC531ECD4250003BD1A2 /* UIView+KCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC511ECD4250003BD1A2 /* UIView+KCView.m */; };
 		165BBC561ECD4EB0003BD1A2 /* ic_hs_tableView_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165BBC541ECD4EB0003BD1A2 /* ic_hs_tableView_arrow@2x.png */; };
 		165BBC571ECD4EB0003BD1A2 /* ic_hs_tableView_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165BBC551ECD4EB0003BD1A2 /* ic_hs_tableView_arrow@3x.png */; };
 		165BBC5A1ECD74DA003BD1A2 /* LSLImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC591ECD74DA003BD1A2 /* LSLImageTableViewCell.m */; };
@@ -33,6 +30,9 @@
 		165BBC751ECE97D0003BD1A2 /* NSString+LSHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC741ECE97D0003BD1A2 /* NSString+LSHeight.m */; };
 		165BBC781ECE9B4D003BD1A2 /* ProfileLockOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165BBC761ECE9B4D003BD1A2 /* ProfileLockOn@2x.png */; };
 		165BBC791ECE9B4D003BD1A2 /* ProfileLockOn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165BBC771ECE9B4D003BD1A2 /* ProfileLockOn@3x.png */; };
+		165BBC801ECEA1A4003BD1A2 /* NSArray+LSSafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC7B1ECEA1A4003BD1A2 /* NSArray+LSSafeAccess.m */; };
+		165BBC811ECEA1A4003BD1A2 /* UIColor+LSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC7D1ECEA1A4003BD1A2 /* UIColor+LSColor.m */; };
+		165BBC821ECEA1A4003BD1A2 /* UIView+KCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 165BBC7F1ECEA1A4003BD1A2 /* UIView+KCView.m */; };
 		B5A68B42E21D9497B79DB2DC /* libPods-LSLBaseMainTableViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC6573480336CA34430A036 /* libPods-LSLBaseMainTableViewController.a */; };
 /* End PBXBuildFile section */
 
@@ -72,18 +72,12 @@
 		165BBC2C1ECD3722003BD1A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165BBC3F1ECD3865003BD1A2 /* LSLBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLBaseTableViewController.h; sourceTree = "<group>"; };
 		165BBC401ECD3865003BD1A2 /* LSLBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLBaseTableViewController.m; sourceTree = "<group>"; };
-		165BBC421ECD3972003BD1A2 /* NSArray+LSSafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LSSafeAccess.h"; sourceTree = "<group>"; };
-		165BBC431ECD3972003BD1A2 /* NSArray+LSSafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LSSafeAccess.m"; sourceTree = "<group>"; };
 		165BBC451ECD3A8C003BD1A2 /* LSLBaseCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLBaseCellModel.h; sourceTree = "<group>"; };
 		165BBC461ECD3A8C003BD1A2 /* LSLBaseCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLBaseCellModel.m; sourceTree = "<group>"; };
 		165BBC481ECD3EA1003BD1A2 /* LSLBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLBaseTableViewCell.h; sourceTree = "<group>"; };
 		165BBC491ECD3EA1003BD1A2 /* LSLBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLBaseTableViewCell.m; sourceTree = "<group>"; };
 		165BBC4B1ECD3F86003BD1A2 /* LSLTableViewControllerConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLTableViewControllerConst.h; sourceTree = "<group>"; };
 		165BBC4C1ECD3F86003BD1A2 /* LSLTableViewControllerConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLTableViewControllerConst.m; sourceTree = "<group>"; };
-		165BBC4E1ECD4250003BD1A2 /* UIColor+LSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LSColor.h"; sourceTree = "<group>"; };
-		165BBC4F1ECD4250003BD1A2 /* UIColor+LSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LSColor.m"; sourceTree = "<group>"; };
-		165BBC501ECD4250003BD1A2 /* UIView+KCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KCView.h"; sourceTree = "<group>"; };
-		165BBC511ECD4250003BD1A2 /* UIView+KCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KCView.m"; sourceTree = "<group>"; };
 		165BBC541ECD4EB0003BD1A2 /* ic_hs_tableView_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_hs_tableView_arrow@2x.png"; sourceTree = "<group>"; };
 		165BBC551ECD4EB0003BD1A2 /* ic_hs_tableView_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_hs_tableView_arrow@3x.png"; sourceTree = "<group>"; };
 		165BBC581ECD74DA003BD1A2 /* LSLImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLImageTableViewCell.h; sourceTree = "<group>"; };
@@ -103,6 +97,12 @@
 		165BBC741ECE97D0003BD1A2 /* NSString+LSHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LSHeight.m"; sourceTree = "<group>"; };
 		165BBC761ECE9B4D003BD1A2 /* ProfileLockOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ProfileLockOn@2x.png"; sourceTree = "<group>"; };
 		165BBC771ECE9B4D003BD1A2 /* ProfileLockOn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ProfileLockOn@3x.png"; sourceTree = "<group>"; };
+		165BBC7A1ECEA1A4003BD1A2 /* NSArray+LSSafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LSSafeAccess.h"; sourceTree = "<group>"; };
+		165BBC7B1ECEA1A4003BD1A2 /* NSArray+LSSafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LSSafeAccess.m"; sourceTree = "<group>"; };
+		165BBC7C1ECEA1A4003BD1A2 /* UIColor+LSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LSColor.h"; sourceTree = "<group>"; };
+		165BBC7D1ECEA1A4003BD1A2 /* UIColor+LSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LSColor.m"; sourceTree = "<group>"; };
+		165BBC7E1ECEA1A4003BD1A2 /* UIView+KCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KCView.h"; sourceTree = "<group>"; };
+		165BBC7F1ECEA1A4003BD1A2 /* UIView+KCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KCView.m"; sourceTree = "<group>"; };
 		4FA6DBDFCDC006FF01675D84 /* Pods-LSLBaseMainTableViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSLBaseMainTableViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSLBaseMainTableViewController/Pods-LSLBaseMainTableViewController.release.xcconfig"; sourceTree = "<group>"; };
 		ACC6573480336CA34430A036 /* libPods-LSLBaseMainTableViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSLBaseMainTableViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD8C25ADA91EFDF395AC416 /* Pods-LSLBaseMainTableViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSLBaseMainTableViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSLBaseMainTableViewController/Pods-LSLBaseMainTableViewController.debug.xcconfig"; sourceTree = "<group>"; };
@@ -263,12 +263,12 @@
 		165BBC3C1ECD3801003BD1A2 /* LSLCategory */ = {
 			isa = PBXGroup;
 			children = (
-				165BBC4E1ECD4250003BD1A2 /* UIColor+LSColor.h */,
-				165BBC4F1ECD4250003BD1A2 /* UIColor+LSColor.m */,
-				165BBC501ECD4250003BD1A2 /* UIView+KCView.h */,
-				165BBC511ECD4250003BD1A2 /* UIView+KCView.m */,
-				165BBC421ECD3972003BD1A2 /* NSArray+LSSafeAccess.h */,
-				165BBC431ECD3972003BD1A2 /* NSArray+LSSafeAccess.m */,
+				165BBC7A1ECEA1A4003BD1A2 /* NSArray+LSSafeAccess.h */,
+				165BBC7B1ECEA1A4003BD1A2 /* NSArray+LSSafeAccess.m */,
+				165BBC7C1ECEA1A4003BD1A2 /* UIColor+LSColor.h */,
+				165BBC7D1ECEA1A4003BD1A2 /* UIColor+LSColor.m */,
+				165BBC7E1ECEA1A4003BD1A2 /* UIView+KCView.h */,
+				165BBC7F1ECEA1A4003BD1A2 /* UIView+KCView.m */,
 				165BBC731ECE97D0003BD1A2 /* NSString+LSHeight.h */,
 				165BBC741ECE97D0003BD1A2 /* NSString+LSHeight.m */,
 			);
@@ -492,16 +492,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				165BBC4D1ECD3F86003BD1A2 /* LSLTableViewControllerConst.m in Sources */,
-				165BBC441ECD3972003BD1A2 /* NSArray+LSSafeAccess.m in Sources */,
 				165BBC471ECD3A8C003BD1A2 /* LSLBaseCellModel.m in Sources */,
 				165BBC721ECE8954003BD1A2 /* LSLTextTableViewCell.m in Sources */,
 				165BBC4A1ECD3EA1003BD1A2 /* LSLBaseTableViewCell.m in Sources */,
 				165BBC0A1ECD3722003BD1A2 /* ViewController.m in Sources */,
+				165BBC811ECEA1A4003BD1A2 /* UIColor+LSColor.m in Sources */,
+				165BBC801ECEA1A4003BD1A2 /* NSArray+LSSafeAccess.m in Sources */,
 				165BBC691ECDA385003BD1A2 /* LSLSwitchCellModel.m in Sources */,
-				165BBC531ECD4250003BD1A2 /* UIView+KCView.m in Sources */,
 				165BBC101ECD3722003BD1A2 /* LSLBaseMainTableViewController.xcdatamodeld in Sources */,
 				165BBC601ECD89D7003BD1A2 /* LSLImageCellModel.m in Sources */,
-				165BBC521ECD4250003BD1A2 /* UIColor+LSColor.m in Sources */,
+				165BBC821ECEA1A4003BD1A2 /* UIView+KCView.m in Sources */,
 				165BBC751ECE97D0003BD1A2 /* NSString+LSHeight.m in Sources */,
 				165BBC071ECD3722003BD1A2 /* AppDelegate.m in Sources */,
 				165BBC411ECD3865003BD1A2 /* LSLBaseTableViewController.m in Sources */,

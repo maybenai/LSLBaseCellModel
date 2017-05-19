@@ -1,0 +1,2 @@
+# LSLBaseCellModel
+initialize various cell

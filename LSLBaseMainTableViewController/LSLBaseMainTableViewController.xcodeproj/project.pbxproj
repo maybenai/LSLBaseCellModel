@@ -103,7 +103,6 @@
 		165BBC7D1ECEA1A4003BD1A2 /* UIColor+LSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LSColor.m"; sourceTree = "<group>"; };
 		165BBC7E1ECEA1A4003BD1A2 /* UIView+KCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KCView.h"; sourceTree = "<group>"; };
 		165BBC7F1ECEA1A4003BD1A2 /* UIView+KCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KCView.m"; sourceTree = "<group>"; };
-		165BBC841ECED313003BD1A2 /* LSLHeaderFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSLHeaderFiles.h; sourceTree = "<group>"; };
 		4FA6DBDFCDC006FF01675D84 /* Pods-LSLBaseMainTableViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSLBaseMainTableViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSLBaseMainTableViewController/Pods-LSLBaseMainTableViewController.release.xcconfig"; sourceTree = "<group>"; };
 		ACC6573480336CA34430A036 /* libPods-LSLBaseMainTableViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSLBaseMainTableViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD8C25ADA91EFDF395AC416 /* Pods-LSLBaseMainTableViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSLBaseMainTableViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSLBaseMainTableViewController/Pods-LSLBaseMainTableViewController.debug.xcconfig"; sourceTree = "<group>"; };
@@ -218,7 +217,6 @@
 				165BBC3C1ECD3801003BD1A2 /* LSLCategory */,
 				165BBC3D1ECD3801003BD1A2 /* LSLConst */,
 				165BBC3E1ECD3801003BD1A2 /* LSLResource */,
-				165BBC841ECED313003BD1A2 /* LSLHeaderFiles.h */,
 			);
 			path = LSLBaseMainTableViewContoller;
 			sourceTree = "<group>";

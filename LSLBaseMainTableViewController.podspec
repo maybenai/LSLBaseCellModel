@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
 
 s.name         = "LSLBaseMainTableViewController"
-s.version      = "0.0.1"
-s.summary      = "fast initilize tableView cell"
+s.version      = "0.0.2"
+s.summary      = "initilize tableView cell"
 
 s.homepage     = "https://github.com/maybenai/LSLBaseCellModel"
 
@@ -21,13 +21,16 @@ s.author             = { "maybenai" => "1014720511@qq.com" }
 
 s.platform     = :ios, "8.0"
 
-s.source       = { :git => "https://github.com/maybenai/LSLBaseCellModel.git", :tag => s.version }
-
+s.source       = { :git => "https://github.com/maybenai/LSLBaseCellModel.git", :tag => "0.0.2" }
 
 s.source_files  = "LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseMainTableViewContoller/**/*"
 
 s.requires_arc = true
 
-s.dependency "SDWebImage", "~> 4.0.0"
+#s.public_header_files = 'LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseMainTableViewContoller/LSLHeaderFiles.h'
+
+
+#s.dependency 'SDWebImage', '~> 4.0.0'
+
 
 end

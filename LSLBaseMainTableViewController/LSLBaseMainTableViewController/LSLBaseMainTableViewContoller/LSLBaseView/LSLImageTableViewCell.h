@@ -8,6 +8,9 @@
 
 #import "LSLBaseTableViewCell.h"
 
+#import <UIImageView+WebCache.h>
+
+
 @interface LSLImageTableViewCell : LSLBaseTableViewCell
 
 

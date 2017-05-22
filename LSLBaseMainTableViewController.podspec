@@ -23,13 +23,13 @@ Pod::Spec.new do |s|
 
     s.source       = { :git => "https://github.com/maybenai/LSLBaseCellModel.git", :tag => "0.0.2" }
 
-    s.source_files  = "LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseMainTableViewContoller/**/*"
+    s.source_files  = "LSLBaseMainTableViewController/*"
 
     s.requires_arc = true
 
     s.framework = 'UIKit', 'Foundation'
 
-    s.dependency 'SDWebImage', '~> 4.0.0'
+    s.dependency 'SDWebImage'
 
 
 end

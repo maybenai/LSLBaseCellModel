@@ -9,7 +9,7 @@
 #import "LSLImageTableViewCell.h"
 #import "LSLTableViewControllerConst.h"
 #import "LSLImageCellModel.h"
-#import <UIImageView+WebCache.h>
+//#import <UIImageView+WebCache.h>
 #import "UIView+KCView.h"
 
 @interface LSLImageTableViewCell ()
@@ -91,7 +91,7 @@
     LSLImageCellModel * bigModel = (LSLImageCellModel *)model;
     
     if (!bigModel.imageIcon) {
-        [self.bigImageView sd_setImageWithURL:[NSURL URLWithString:bigModel.imageUrl] placeholderImage:bigModel.placeHolderImage];
+//        [self.bigImageView sd_setImageWithURL:[NSURL URLWithString:bigModel.imageUrl] placeholderImage:bigModel.placeHolderImage];
     }else{
         self.bigImageView.image = bigModel.imageIcon;
     }

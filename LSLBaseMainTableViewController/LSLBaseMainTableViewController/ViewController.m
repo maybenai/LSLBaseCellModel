@@ -7,10 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "LSLBaseCellModel.h"
-#import "LSLImageCellModel.h"
-#import "LSLSwitchCellModel.h"
-#import "LSLTextCellModel.h"
+//#import "LSLBaseCellModel.h"
+//#import "LSLImageCellModel.h"
+//#import "LSLSwitchCellModel.h"
+//#import "LSLTextCellModel.h"
+
+#import "LSLMainCellModel.h"
 
 @interface ViewController ()
 

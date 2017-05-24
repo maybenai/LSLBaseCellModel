@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "LSLBaseMainTableViewController"
-    s.version      = "0.0.3"
+    s.version      = "0.0.4"
     s.summary      = "initilize tableView cell"
 
     s.homepage     = "https://github.com/maybenai/LSLBaseCellModel"
@@ -21,10 +21,51 @@ Pod::Spec.new do |s|
 
     s.platform     = :ios, "8.0"
 
-    s.source       = { :git => "https://github.com/maybenai/LSLBaseCellModel.git", :tag => "0.0.3" }
+    s.source       = { :git => "https://github.com/maybenai/LSLBaseCellModel.git", :tag => "0.0.4" }
 
-    s.source_files  = "LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseMainTableViewContoller/**/*"
+    s.source_files  = "LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLMainCellModel.h"
 
     s.requires_arc = true
+
+
+   s.subspec 'LSLBaseContoller' do |ss|
+
+        ss.source_files = 'LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseContoller/*'
+  ss.public_header_files = 'LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseContoller/**/*.h'
+   end
+
+
+s.subspec 'LSLBaseModel' do |ss|
+
+       ss.source_files = 'LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseModel/**/*'
+       ss.public_header_files = 'LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseModel/**/*.h'
+   end
+
+
+   s.subspec 'LSLBaseView' do |ss|
+
+        ss.source_files = 'LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseView/**/*'
+       ss.public_header_files = 'LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseView/**/*.h'
+   end
+
+   s.subspec 'LSLCategory' do |ss|
+
+       ss.source_files = 'LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLCategory/**/*'
+
+       ss.public_header_files = 'LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLCategory/**/*.h'
+   end
+
+   s.subspec 'LSLConst' do |ss|
+
+       ss.source_files = 'LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLConst/**/*'
+       ss.public_header_files = 'LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLConst/**/*.h'
+   end
+
+   s.subspec 'LSLResource' do |ss|
+
+       ss.resource = 'LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLBaseMainTableViewController/LSLResource/**/*.png'
+
+   end
+
 
 end
